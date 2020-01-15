@@ -17,7 +17,7 @@ app.use(cors());
 
 // define routes
 app.get('/location', (request, response) => {
-  response.send('Happy!');
+
   try {
     const dataArray = require('./data/geo.json');
     const geoData = dataArray [0];

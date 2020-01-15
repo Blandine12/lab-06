@@ -14,7 +14,7 @@ Architecture
 BACK End will utilizes JavaScript and some libraries
 - Node.js
 - Express.js
-- cDotenv
+- Dotenv
 - Cors
 
 Change Log
