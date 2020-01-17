@@ -62,7 +62,7 @@ function Location(city, localData) {
 
 function Weather(dailyForecast) {
   this.forecast = dailyForecast.summary;
-  this.time = new Date(dailyForecast.time).toDateString();
+  this.time = new Date(dailyForecast.time*1000).toDateString();
 }
 
 function errorHandler(string, response) {
